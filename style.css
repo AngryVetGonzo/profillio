@@ -1,0 +1,217 @@
+* {
+	overflow: hidden;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+	/************MAIN CONTENT************/
+
+#main_div{
+	width: 1800px;
+	height: 1000px;
+	margin: 0px auto;
+	padding: 0px;
+}
+body{
+	background-image: url('background.jpg');
+
+
+}
+#main{
+	width: 700px;
+	height: 850px;
+	background-color: #eee;
+    margin-top: 100px;
+	-webkit-box-shadow: -10px -8px 5px 0px rgba(0, 165, 0, 0.47);
+	-moz-box-shadow:    -10px -8px 5px 0px rgba(0, 165, 0, 0.47);
+	box-shadow:         -10px -8px 5px 0px rgba(0, 165, 0, 0.47);
+}
+#banner{
+	width: 690px;
+	height: 60px;
+	background-color: #d3dee5;
+	padding: 5px;
+}
+	#banner h3{
+		margin: 13px 0 0px 110px;
+		font-weight: normal;
+		display: inline-block;
+		font-size: 28px;
+		font-family: "Architects Daughter", Arial, sans;
+	}
+#nav_bar{
+	width: 700px;
+	height: 60px;
+	background-color: #2C9676;
+	padding-top: 5px;
+	display: inline-block;
+	border-bottom: none;
+	margin-bottom: 20px;
+}
+	#nav_bar a{
+		color: #eee;
+		font-size: 18px;
+		text-decoration: none;
+		margin-left: 80px;
+	}
+	#nav_bar ul{
+		margin-top: 15px;
+	}
+	#nav_bar li{
+		display: inline;
+		top: 5px;
+	}
+h1{
+	font-size: 34px;
+	margin-left: 85px;
+	margin-bottom: 50px;
+	font-family: "Architects Daughter", Arial, sans;
+}
+footer {
+  	font-size: 25px;
+  	color: #ccc;
+	margin-left: 740px;
+	margin-bottom: 13px;
+	color: red;
+	background-color: blue;
+    display: inline-block;
+}
+	/************INDEX.HTML************/
+
+#coding_dojo{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+	#coding_dojo button {
+		margin-top: 50px;
+		margin-left: 270px;
+	}
+	button {
+	  background: #3498db;
+	  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;
+	  font-size: 20px;
+	  padding: 10px 20px 10px 20px;
+	  text-decoration: none;
+	}
+
+	button:hover {
+	  background: #3cb0fd;
+	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	  text-decoration: none;
+	}
+	#coding_dojo img{
+		margin-top: 50px;
+		margin-left: 100px;
+		border-radius: 15px;
+	}
+	#hello {
+		font-size: 52px;
+		font-family: "Architects Daughter", Arial, sans;
+		margin: 80px 60px;
+		text-align: center;
+
+	}
+
+	/************ABOUT.HTML************/
+#about_me{
+	height: 300px;
+	width: 500px;
+	padding: 15px;
+	margin: 55px 0 0 90px;
+}
+	#about_me h2{
+		font-size: 45px;
+		display: inline-block;
+		margin-left: 130px;
+		margin-bottom: 25px;
+		font-family: "Architects Daughter", Arial, sans;
+	}
+	#about_me p{
+		font-size: 20px;
+		text-align: center;
+		font-family: "Architects Daughter", Arial, sans;
+	}
+#bike{
+	display: inline-block;
+	margin: 200px 100px 200px 10px;
+
+}
+	#bike img{
+	border-radius: 15px;	
+	}
+
+	/************PORTFOLIO************/
+#construction{
+	font-size: 16px;
+	height: 400px;
+	width: 500px;
+	padding: 15px;
+	margin: 65px 0 0 80px;
+}
+	#construction h2{
+		font-size: 32px;
+		display: inline-block;
+		margin-left: 50px;
+		margin-bottom: 20px;
+		text-align: center;
+		font-family: "Architects Daughter", Arial, sans;
+	}
+
+	#construction_img {
+		margin-top: 150px;
+		margin-left: 200px;
+
+}
+
+	/************CONTACT.HTML************/
+.image_list{
+	height: 500px;
+	margin-left: 40px;
+	display: inline-block;
+	width: 100px;
+}
+	.image_list img{
+		border-radius: 15px;
+		display: inline-block;
+		margin-bottom: 50px;
+	}
+#text_contact{
+	display: inline-block;
+	line-height: 50px;
+	list-style: none;
+	height: 500px;
+	width: 300px;
+	vertical-align: top;
+	margin-left: 35px;
+}
+	#text_contact li{
+		margin-bottom: 85px;
+		font-size: 24px;
+		font-family: "Architects Daughter", Arial, sans;		
+	}
+	#text_contact li:first-child{
+		margin-top: 5px;
+	}
+	a{
+		text-decoration: none;
+	}
+#video{
+	margin-left: 50px;
+	margin-top: 100px;
+	display: inline-block;
+	border-radius: 15px;
+}
